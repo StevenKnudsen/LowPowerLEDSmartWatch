@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2023-02-13T19:41:49.033Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.3 Safari/605.1.15" etag="RrikZQrbhtNn6IF2zcZ7" version="20.8.20" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-13T19:54:38.152Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.3 Safari/605.1.15" etag="_0-srfix3izSIU-CRyfl" version="20.8.20" type="github">
   <diagram name="Page-1" id="1_VBY31vtWC5b1pm4Qgb">
-    <mxGraphModel dx="1128" dy="743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1269" dy="823" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="GcOYVShA0cxW18WvW7lh-1" value="Fanstel BT840" style="rounded=0;whiteSpace=wrap;html=1;align=center;labelPosition=center;verticalLabelPosition=top;verticalAlign=bottom;" vertex="1" parent="1">
+        <mxCell id="GcOYVShA0cxW18WvW7lh-1" value="Fanstel BT840 or BT40(?)" style="rounded=0;whiteSpace=wrap;html=1;align=center;labelPosition=center;verticalLabelPosition=top;verticalAlign=bottom;" vertex="1" parent="1">
           <mxGeometry x="40" y="80" width="120" height="380" as="geometry" />
         </mxCell>
         <mxCell id="GcOYVShA0cxW18WvW7lh-15" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;fontSize=9;endArrow=none;endFill=0;" edge="1" parent="1" source="GcOYVShA0cxW18WvW7lh-2">
@@ -56,6 +56,21 @@
         </mxCell>
         <mxCell id="GcOYVShA0cxW18WvW7lh-13" value="" style="pointerEvents=1;verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.signal_sources.signal_ground;fontSize=9;" vertex="1" parent="1">
           <mxGeometry x="560" y="115" width="20" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="GcOYVShA0cxW18WvW7lh-18" value="BME280" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="425" y="220" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GcOYVShA0cxW18WvW7lh-20" value="CAS1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="160" y="210" width="60" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="GcOYVShA0cxW18WvW7lh-21" value="CAS2" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="160" y="200" width="60" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="GcOYVShA0cxW18WvW7lh-22" value="CAS5" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="160" y="190" width="60" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="GcOYVShA0cxW18WvW7lh-23" value="CAS6" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="160" y="180" width="60" height="10" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
