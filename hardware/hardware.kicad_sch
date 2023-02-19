@@ -1,0 +1,36 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 37151b3b-08b1-42f0-b823-5b7041c54301)
+
+  (paper "USLetter")
+
+  (title_block
+    (title "Low Power LED Smart Watch")
+    (rev "0.5")
+  )
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 19.05 20.32) (size 52.07 26.67) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 1805c870-d8ce-413a-9a08-f0d5eeb2a70a)
+    (property "Sheetname" "Power" (at 19.05 19.6084 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "untitled.kicad_sch" (at 19.05 47.5746 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "hardware"
+        (path "/37151b3b-08b1-42f0-b823-5b7041c54301" (page "2"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
