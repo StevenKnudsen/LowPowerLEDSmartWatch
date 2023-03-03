@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-03T23:48:51.422Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="yYFscz7QzmQC4N-JDQAM" version="20.8.20" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-03T23:52:06.851Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="L30e_oZbG-8U7esnceHp" version="20.8.20" type="github">
   <diagram name="Page-1" id="1_VBY31vtWC5b1pm4Qgb">
     <mxGraphModel dx="1435" dy="902" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -118,7 +118,7 @@
         <mxCell id="8WGUGqrqhZf74inOArIn-3" value="1v8 power subsystem" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;" parent="1" vertex="1">
           <mxGeometry x="650" y="150" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="8WGUGqrqhZf74inOArIn-4" value="&lt;b&gt;Power Domains&lt;br&gt;&lt;/b&gt;&lt;br&gt;BT840 - 1v7 to 5v5&lt;br&gt;BME280 - 1v7 to 3v6&lt;br&gt;BMI270 - 1v7 to 3v6&lt;br&gt;MAX30101 - 1v7 to 2v0, 5V&lt;br&gt;APDS-9960 - 2v4 to 3v6&lt;br&gt;Radiation Detector - 9v ?" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" parent="1" vertex="1">
+        <mxCell id="8WGUGqrqhZf74inOArIn-4" value="&lt;b&gt;Power Domains&lt;br&gt;&lt;/b&gt;&lt;br&gt;BT840 - 1v7 to 5v5&lt;br&gt;BME280 - 1v7 to 3v6&lt;br&gt;BMI270 - 1v7 to 3v6&lt;br&gt;MAX30101 - 1v7 to 2v0, 5V&lt;br&gt;APDS-9960 - 2v4 to 3v6&lt;br&gt;Radiation Detector - 5V to 9v ?" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" parent="1" vertex="1">
           <mxGeometry x="40" y="620" width="130" height="110" as="geometry" />
         </mxCell>
         <mxCell id="8WGUGqrqhZf74inOArIn-5" value="9v0 power subsystem" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;" parent="1" vertex="1">
@@ -130,7 +130,7 @@
         <mxCell id="ILjsv4NOO_y6TlwixxmM-2" value="http://www.vk2zay.net/article/265&lt;br&gt;https://www.analog.com/en/technical-articles/gammaphoton-radiation-detector.html&lt;br&gt;Elektor #419, Nov 2011&lt;br&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="180" y="730" width="570" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="ILjsv4NOO_y6TlwixxmM-3" value="&lt;b&gt;Comms&lt;br&gt;&lt;/b&gt;&lt;br&gt;BT840 -&amp;nbsp;&lt;br&gt;BME280 - I2C or SPI&lt;br&gt;BMI270 - I2C or SPI, 2 interrupts&lt;br&gt;MAX30101 - I2C + nINT&lt;br&gt;APDS-9960 -&amp;nbsp;&lt;br&gt;Radiation Detector - GPIO, maybe analogue?" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" vertex="1" parent="1">
+        <mxCell id="ILjsv4NOO_y6TlwixxmM-3" value="&lt;b&gt;Comms&lt;br&gt;&lt;/b&gt;&lt;br&gt;BT840 -&amp;nbsp;&lt;br&gt;BME280 - I2C or SPI&lt;br&gt;BMI270 - I2C or SPI, 2 interrupts&lt;br&gt;MAX30101 - I2C + nINT&lt;br&gt;APDS-9960 - I2C&lt;br&gt;Radiation Detector - GPIO, maybe analogue?" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" vertex="1" parent="1">
           <mxGeometry x="540" y="610" width="200" height="110" as="geometry" />
         </mxCell>
       </root>
