@@ -330,6 +330,22 @@
     [
       "1805c870-d8ce-413a-9a08-f0d5eeb2a70a",
       "Power"
+    ],
+    [
+      "9ccde7b4-70d4-4f03-b8c3-8793f8ac2e1a",
+      "BLE"
+    ],
+    [
+      "8fc3a983-e292-4015-be77-38ac75966eb9",
+      "Sensors"
+    ],
+    [
+      "982c615e-1e7a-43b9-8358-2c2245a3b76e",
+      "Display"
+    ],
+    [
+      "11791ecf-4216-49f7-8617-567b461653ac",
+      "Connectors"
     ]
   ],
   "text_variables": {}

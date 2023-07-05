@@ -13,6 +13,26 @@
   )
 
 
+  (sheet (at 19.05 158.75) (size 52.07 27.94) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 11791ecf-4216-49f7-8617-567b461653ac)
+    (property "Sheetname" "Connectors" (at 19.05 158.0384 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Connectors.kicad_sch" (at 19.05 187.2746 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (property "Field2" "" (at 19.05 158.75 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "hardware"
+        (path "/37151b3b-08b1-42f0-b823-5b7041c54301" (page "6"))
+      )
+    )
+  )
+
   (sheet (at 19.05 20.32) (size 52.07 26.67) (fields_autoplaced)
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))
@@ -20,12 +40,63 @@
     (property "Sheetname" "Power" (at 19.05 19.6084 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheetfile" "untitled.kicad_sch" (at 19.05 47.5746 0)
+    (property "Sheetfile" "Power.kicad_sch" (at 19.05 47.5746 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (instances
       (project "hardware"
         (path "/37151b3b-08b1-42f0-b823-5b7041c54301" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 19.05 90.17) (size 52.07 27.94) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 8fc3a983-e292-4015-be77-38ac75966eb9)
+    (property "Sheetname" "Sensors" (at 19.05 89.4584 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Sensors.kicad_sch" (at 19.05 118.6946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "hardware"
+        (path "/37151b3b-08b1-42f0-b823-5b7041c54301" (page "4"))
+      )
+    )
+  )
+
+  (sheet (at 19.05 124.46) (size 52.07 27.94) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 982c615e-1e7a-43b9-8358-2c2245a3b76e)
+    (property "Sheetname" "Display" (at 19.05 123.7484 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Display.kicad_sch" (at 19.05 152.9846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "hardware"
+        (path "/37151b3b-08b1-42f0-b823-5b7041c54301" (page "5"))
+      )
+    )
+  )
+
+  (sheet (at 19.05 53.34) (size 52.07 27.94) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 9ccde7b4-70d4-4f03-b8c3-8793f8ac2e1a)
+    (property "Sheetname" "BLE" (at 19.05 52.6284 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "BLE.kicad_sch" (at 19.05 81.8646 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "hardware"
+        (path "/37151b3b-08b1-42f0-b823-5b7041c54301" (page "3"))
       )
     )
   )
