@@ -1016,6 +1016,11 @@
   )
 
 
+  (text "NINA?" (at 80.01 53.34 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 6cfb6537-babd-4989-8a4d-2870163ea54f)
+  )
+
   (symbol (lib_id "Device:Crystal_Small") (at 64.77 102.87 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 464d82a3-624d-4654-8b44-6697248d5e52)
